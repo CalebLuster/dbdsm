@@ -22,7 +22,7 @@ const VideoCard: NextPage<IProps> = ({ post }) => {
       videoRef?.current?.pause();
       setPlaying(false);
     } else {
-      videoRef?.current?.pause();
+      videoRef?.current?.play();
       setPlaying(true);
     }
   };
