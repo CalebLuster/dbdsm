@@ -117,7 +117,7 @@ const Upload = () => {
                         Up to 10 minutes <br />
                         Less than 2 GB
                       </p>
-                      <p className='bg-[#F51997] text-center mt-8 rounded text-white text-md font-medium p-2 w-52 outline-none'>
+                      <p className='bg-[#FF0000] text-center mt-8 rounded text-white text-md font-medium p-2 w-52 outline-none'>
                         Select file
                       </p>
                     </div>
@@ -195,7 +195,7 @@ const Upload = () => {
               disabled={videoAsset?.url ? false : true}
               onClick={handlePost}
               type='button'
-              className='bg-[#F51997] text-white text-md font-medium p-2 rounded w-28 lg:w-44 outline-none'
+              className='bg-[#FF0000] text-white text-md font-medium p-2 rounded w-28 lg:w-44 outline-none'
             >
               {savingPost ? 'Posting...' : 'Post'}
             </button>
